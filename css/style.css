@@ -1,0 +1,397 @@
+
+@font-face {
+    font-family: tieu de;
+    src: url(../font/CaviarDreams_Bold.ttf);
+}
+@font-face {
+    font-family: binh thuong;
+    src: url(../font/CaviarDreams.ttf);
+}
+
+.header{
+    padding:26px 0;
+    position:absolute;
+    background-color:  rgba(66, 77, 61, 0.432);
+    z-index: 1000;
+    width:100%;
+}
+
+.logo{
+    width:50%;
+}
+
+.nav li{
+    margin-left: 60px;
+    position:relative;
+   
+}
+.nav li a{
+    color:antiquewhite;
+    font-family:binh thuong;
+    font-size:20px;
+   
+}
+.nav li:hover{
+    border-bottom: 2px solid rgb(64, 77, 55);
+
+}
+.sub-menu{
+    background-color:rgba(90, 105, 56, 0.466);
+    position:absolute;
+    left:0;
+    width:100px;
+    text-align: center;
+  
+    padding:4px;
+    visibility:hidden;
+    opacity:0;
+    transition-duration: 1s;
+    
+
+}
+.sub-menu li{
+    margin:0;
+    margin:10px 0;
+    display:block;
+    
+   
+}
+.sub-menu li a{
+    display:block;
+}
+.nav li:hover .sub-menu{
+    visibility:visible;
+    opacity:1;
+}
+.banner{
+    height:80vh;
+ }
+ .banner video{
+     width:100%;
+    
+     object-fit:cover;
+     position:relative;
+ }
+ .content{ 
+    
+    
+    align-items: center;
+     position:absolute;
+     top:70%;
+     left:30%;
+     transform:translate(-50% ,-50%);
+ }
+ .content{
+     color:antiquewhite;
+     background-color: rgba(54, 65, 45, 0.486);
+     padding:0 24px;
+     text-align: center;
+     font-family: tieu de;
+     height:200px;
+ }
+ .btn{
+     font-family: binh thuong;
+     padding:10px 22px;
+     margin:15px;
+     text-decoration: none;
+     color:antiquewhite;
+     background-color: rgba(151, 197, 107, 0.356);
+ 
+ }
+ .btn:hover{
+     background-color: rgba(78, 109, 39, 0.575);
+ }
+ .content p {
+     margin:24px 0;
+     font-family: binh thuong;
+ 
+ }
+ .content h1{
+     font-family: tieu de;
+     font-size: 30px;
+     padding:20px;
+ }
+.box2{
+    width:1000px;
+    padding:30px;
+    display:flex;
+    align-items: center;
+}
+
+.future3{
+    height:700px;
+    
+    
+}
+.future3 img{
+    
+    height:100%;
+    width:600px;
+}
+
+.future2{
+   height:700px;
+   overflow: hidden;
+   
+   
+   
+    
+}
+.future2 img{ 
+    height:100%;
+    padding:70px 20px 30px 60px; 
+    
+}
+.box3{
+    
+    margin:40px;
+    width:600px;
+    height:700px;
+    
+    
+    
+    position:relative;
+   
+    align-self: center;
+   box-shadow: 15px 6px 10px rgb(119, 82, 39);
+   
+   
+}
+
+
+.box4{
+    height:150px;
+    padding:30px;
+     margin: 300px 10px;
+    align-items: center;
+    color:rgb(159, 197, 116);
+    background-color: aliceblue;
+    font-family: tieu de;
+
+}
+
+.box{
+   
+    width:300px;
+    height:500px;
+    
+    margin:50px;
+    position:relative;
+   
+    align-self: center;
+   box-shadow: 15px 6px 10px rgb(59, 70, 56);
+   
+    
+   
+
+}
+
+
+.future{
+    height:500px;
+    overflow: hidden;
+    
+    
+
+}
+.future img{
+    height:100%;
+    
+    display:flex;
+    margin:0 auto;
+    align-items: center;
+    
+}
+.ghichu{
+    width:103px;
+    height:500px;
+    background-color:rgba(84, 112, 58, 0.466);
+    color:white;
+    position:absolute;
+    left:0px;
+    top:100px;
+    transition-duration:2s;
+    visibility:visible;
+    opacity:0;
+    font-family: tieu de;
+    padding:10px;
+   
+
+}
+.box:hover .ghichu{
+    visibility:hidden;
+    opacity:1;
+    height:350px;
+    width:200px;
+}
+.ghichu2{
+    width:103px;
+    height:500px;
+    background-color:rgba(72, 88, 61, 0.466);
+    color:rgb(97, 117, 79);
+    position:absolute;
+    left:0px;
+    top:100px;
+    transition-duration:2s;
+    visibility:visible;
+    opacity:0;
+    font-family: tieu de;
+    font-size: 50px;
+    padding:40px;
+   
+
+}
+.box:hover .ghichu2{
+    visibility:hidden;
+    opacity:1;
+    height:400px;
+    width:400px;
+}
+.noi_dung{ 
+    padding:50px 62px;
+    
+    
+    background-color:rgba(84, 112, 58, 0.466);
+   
+    position:absolute;
+    top:0 ;
+    left:0;
+    transition-duration:3s;
+    visibility:visible;
+    opacity:0;
+    
+   
+
+}
+.noi-dung h2{
+    margin:20px;
+    background-color: rgb(109, 131, 94);
+    padding:10px;
+    font-family: tieu de;
+    font-size: 30px;
+    color:rgb(163, 194, 125)
+}
+.noi-dung p{
+    margin:20px;
+    color:rgb(134, 150, 117);;
+    font-family: binh thuong;
+    font-size:20px;
+    
+   
+}
+.noi-dung:hover h2{
+    visibility:hidden;
+    opacity:1;
+    
+    width:200px;
+    
+}
+.login{
+    margin:0 auto;
+    width:100%;
+    height:700px;
+    align-items: center;
+}
+.right-menu p{
+    color:rgb(83, 97, 66);
+    font-family: binh thuong;
+    padding:50px;
+    border-top:3px solid rgb(101, 128, 79);
+    
+}
+.right-menu a{
+    color:rgb(101, 128, 79);
+    padding:70px  20px;
+    font-size: 30px;
+   
+    
+    
+}
+.list-menu{
+    padding:50px;
+    margin-left: 30px;
+    
+    color:rgb(101, 128, 79);
+    font-family: binh thuong;
+   
+   
+}
+.list-menu2{
+    padding:40px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    
+    
+    color:rgb(101, 128, 79);
+    font-family: binh thuong;
+   
+   
+}
+.list-menu2 a{
+    color:rgb(101, 128, 79);
+}
+.list-menu3{
+    padding:40px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    color:rgb(101, 128, 79);
+    
+   
+   
+    
+   
+}
+.list-menu3 a{
+    color:rgb(101, 128, 79);
+}
+.list-menu4{
+    padding:40px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    
+    font-family: binh thuong;
+    
+   
+}
+.list-menu4 a{
+    color:rgb(101, 128, 79);
+}
+.list-menu5{
+    padding:40px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    
+    font-family: binh thuong;
+    
+   
+}
+.list-menu5 a{
+    color:rgb(101, 128, 79);
+}
+.footer{
+    border-bottom:20px solid rgb(99, 124, 87);
+   
+    
+}
+.login{
+    color:rgb(142, 179, 109);
+    margin:100px;
+    padding:120px;
+    font-size: 20px;
+    
+}
+.login h3{
+    font-family: tieu de;
+    
+}
+.login h2{
+    font-family: binh thuong;
+   
+}
+.login p{
+    font-family: binh thuong;
+}
+.footer{
+    background-color: rgb(243, 209, 177);
+    padding:40px;
+}
